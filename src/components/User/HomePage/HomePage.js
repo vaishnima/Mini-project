@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from "../../components/User/Header/Header"
-import Footer from '../../components/User/Footer/Footer'
+
 function HomePage() {
   return (
-    <div><Header/>
-    <Footer/>
+    <div><Header/><Sopper/><Footer/><img className="bg" src="https://d1pdzcnm6xgxlz.cloudfront.net/bottoms/8905074689262-18.jpg" alt="" />
+    
+    
     </div>
   )
 }
