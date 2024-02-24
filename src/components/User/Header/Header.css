@@ -4,6 +4,7 @@
     padding: 4px;
     box-shadow: 0 1px 3px -2px black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:burlywood;
 }
 
 .headerbrand{
@@ -11,6 +12,7 @@
     align-items: center;
     gap: 10px;
     font-size: -10px;
+    
 }
 .headerbrand p{
     color: black;
@@ -20,6 +22,7 @@
 }
 .pic{
     font-size: 10px;
+    background-color: burlywood;
 }
 .headerlinks{
     display: flex;
@@ -64,7 +67,7 @@
     color:#515151;
     font-size: 15px;
     font-weight: 500;
-    background: white;
+    background:white;
     cursor: pointer;
 }
 .hearderbuttons button:hover{

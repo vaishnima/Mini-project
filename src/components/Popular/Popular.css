@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .polaroid {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: calc(33.33% - 20px); /* Adjust the width according to your layout */
+    max-width: 300px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .polaroid:hover {
+    background-color: white;
+    box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .polaroid img {
+    width: 80%;
+    height: auto;
+  }
+  
+  .caption {
+    padding: 10px;
+  }
+  
