@@ -1,4 +1,4 @@
-.userlogin {
+.login {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -27,7 +27,7 @@
   }
   
   .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
   }
   
   .form-group label {

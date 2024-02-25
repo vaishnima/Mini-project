@@ -14,7 +14,7 @@ function Header() {
         </div>
         <div>
             <ul className='headerlinks'>
-            <li onClick={()=>(setLink("shop"))}><Link style={{ textDecoration: 'none'}} to='/'>Shop</Link>{link==="shop"?<hr/>:<></>}</li>
+            <li onClick={()=>(setLink("shop"))}><Link style={{ textDecoration: 'none'}} to='/'>Shop</Link>{link==="shop"?<hr/>:<></>} </li>
             <li onClick={()=>(setLink("mens"))}><Link style={{ textDecoration: 'none'}} to='/mens'>Mens</Link>{link==="mens"?<hr/>:<></>}</li>
             <li onClick={()=>(setLink("womens"))}><Link style={{ textDecoration: 'none'}} to='/womens'>Womens</Link>{link==="womens"?<hr/>:<></>}</li>
             <li onClick={()=>(setLink("kids"))}><Link style={{ textDecoration: 'none'}} to='/kids'>Kids</Link>{link==="kids"?<hr/>:<></>}</li></ul>
