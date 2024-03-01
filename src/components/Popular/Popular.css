@@ -12,19 +12,33 @@
     width: calc(33.33% - 20px); /* Adjust the width according to your layout */
     max-width: 300px; /* Adjust as needed */
     text-align: center;
+    
   }
   
   .polaroid:hover {
     background-color: white;
-    box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
   }
   
   .polaroid img {
-    width: 80%;
+    width: 40%;
     height: auto;
   }
   
   .caption {
-    padding: 10px;
+    padding-top: 10px;
+  }
+  .polaroid button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .polaroid button:hover {
+    background-color: #0056b3;
   }
   

@@ -1,34 +1,34 @@
 import React from 'react'
-import './ProductDisplay.css'
-function ProductDisplay() {
+
+function Kids() {
   return (
     <div><div class="product-container">
     <div class="product">
-      <img src="https://assets.ajio.com/medias/sys_master/root/20230605/L1Bx/647e208442f9e729d724ffeb/-473Wx593H-466233938-yellow-MODEL.jpg" alt="Product 1" />
+      <img src="https://thumbs.dreamstime.com/b/little-boy-portrait-full-length-isolated-white-background-40214326.jpg" alt="Product 1" />
       <h3>sari</h3>
       <p>Price: $50</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://m.media-amazon.com/images/I/81xpkt+q-7L._AC_UY1100_.jpg" alt="Product 2" />
+      <img src="https://images.meesho.com/images/products/243287844/mflw0_512.jpg" alt="Product 2" />
       <h3>churidhar</h3>
       <p>Price: $80</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://images.meesho.com/images/products/243976958/82kfa_512.webp" alt="Product 3" />
+      <img src="https://st2.depositphotos.com/3662305/10030/i/950/depositphotos_100309434-stock-photo-funny-child-fashionable-little-boy.jpg" alt="Product 3" />
       <h3>shirt geans</h3>
       <p>Price: $60</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://media.istockphoto.com/id/168246624/photo/young-handsome-man-in-jeans-shirt.jpg?s=612x612&w=0&k=20&c=qR0WfZKGw4ClnhW4eUAIcCyRlsF9bFD0uSBjE9GasBM=" alt="Product 3" />
+      <img src="https://img.freepik.com/premium-photo/carefree-casual-girl-cute-checkered-shirt-denim-pants-looks-happy-cheerful-child-girl-happy-carefree-enjoy-childhood-kid-girl-long-curly-hair-cheerful-happy-isolated-white-background_474717-60859.jpg" alt="Product 3" />
       <h3>tshirt trouser</h3>
       <p>Price: $60</p>
       <button>Add to Cart</button>
       </div>
       <div class="product">
-      <img src="https://tiimg.tistatic.com/fp/3/303/girl-kids-full-sleeve-frock-546.jpg" alt="Product 3" />
+      <img src="https://previews.123rf.com/images/domenicogelermo/domenicogelermo1411/domenicogelermo141100168/33289625-portrait-of-a-smiling-little-girl-in-a-green-shirt-and-blue-jeans-on-a-white-background.jpg" alt="Product 3" />
       <h3>frock</h3>
       <p>Price: $60</p>
       <button>Add to Cart</button>
@@ -40,13 +40,13 @@ function ProductDisplay() {
       <button>Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://media.istockphoto.com/id/1086268160/photo/young-pretty-woman-in-short-jeans-standing-on-white-background.jpg?s=612x612&w=0&k=20&c=CRSuDInuh-n6ks4XJMX9iFi-xGVlU-IQoNMPozv9EPY=" alt="Product 2" />
+      <img src="https://media.istockphoto.com/id/686918778/photo/child-in-white-t-shirt-and-jeans-standing-on-white-background.jpg?s=612x612&w=0&k=20&c=WQNVgZqTlQoGYyoWJ57S4-P8UyJh0mj1P_iezjio7W0=" alt="Product 2" />
       <h3>churidhar</h3>
       <p>Price: $80</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://m.media-amazon.com/images/I/719YAZ1sbHL._SY679_.jpg" alt="Product 2" />
+      <img src="https://fcity.in/images/products/42362584/ep2zw_512.jpg" alt="Product 2" />
       <h3>churidhar</h3>
       <p>Price: $80</p>
       <button>Add to Cart</button>
@@ -74,10 +74,9 @@ function ProductDisplay() {
       <h3>churidhar</h3>
       <p>Price: $80</p>
       <button>Add to Cart</button>
-      
     </div>
   </div></div>
   )
 }
 
-export default ProductDisplay
+export default Kids

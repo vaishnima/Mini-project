@@ -13,7 +13,7 @@ function SignUp() {
       </div>
       <div className="form-group">
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" />
+        <input className="email"type="email" id="email" name="email" />
       </div>
       <div className="form-group">
         <label for="password">Password:</label>
@@ -24,7 +24,7 @@ function SignUp() {
         <input type="password" id="confirm-password" name="confirm-password" />
       </div>
       <button type="submit">Signup</button><br></br><br></br>
-      <p>Do you have an account?</p>
+      <p className='do'>Do you have an account?<a href='/login'>Login</a></p>
       
       
     </form>

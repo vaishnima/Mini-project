@@ -1,6 +1,6 @@
 import React from 'react'
-import './ProductDisplay.css'
-function ProductDisplay() {
+
+function Shop() {
   return (
     <div><div class="product-container">
     <div class="product">
@@ -74,10 +74,9 @@ function ProductDisplay() {
       <h3>churidhar</h3>
       <p>Price: $80</p>
       <button>Add to Cart</button>
-      
     </div>
   </div></div>
   )
 }
 
-export default ProductDisplay
+export default Shop
