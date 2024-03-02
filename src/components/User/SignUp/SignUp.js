@@ -1,5 +1,6 @@
 
 import React from 'react'
+
 import './SignUp.css'
 
 function SignUp() {
@@ -24,7 +25,7 @@ function SignUp() {
         <input type="password" id="confirm-password" name="confirm-password" />
       </div>
       <button type="submit">Signup</button><br></br><br></br>
-      <p className='do'>Do you have an account?<a href='/login'>Login</a></p>
+      <p className='do'>Don't have an account?<a href='/login'>Login</a></p>
       
       
     </form>

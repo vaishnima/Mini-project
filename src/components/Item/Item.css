@@ -41,3 +41,6 @@
 .polaroid button:hover {
   background-color: #0056b3;
 }
+.polaroid button:hover{
+  transform: scale(1.1);
+}

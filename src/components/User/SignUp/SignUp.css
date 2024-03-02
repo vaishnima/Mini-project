@@ -11,13 +11,13 @@
   }
   
   
-  .signup-container {
+  /* .signup-container {
     background-color: #fff;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-  }
+  } */
   .signup-container label {
     display: block;
     margin-bottom: 10px;

@@ -70,7 +70,7 @@ const SignUpForm = () => {
             name='email'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
-            value={formik.errors.email}
+            value={formik.errors.email} placeholder='Email'
             />
             {formik.touched.email && formik.errors.email?(
                 <div>{formik.errors.email}</div>
@@ -122,6 +122,7 @@ const SignUpForm = () => {
             ):null}
             </div>
             <button type='submit'>Submit</button>
+            <p className='do'>Do you have an account?<a href='/login'>Login</a></p>
         
     </form>
     
