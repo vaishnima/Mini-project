@@ -46,16 +46,39 @@
     margin-top: .5em;
     transition: background-color 0.3s ease;
 } */
-.clr{
-    color: rgb(26, 15, 85);
-    font-size: 30px;
-    font-weight: 600;
+.udt{
+    background-color: rgb(240, 227, 229);
+    height: 100vh;
 }
-.Head{
-    display:flex;
-    justify-content: space-around;
-    padding: 30px;
-    box-shadow: 0 1px 3px -2px black;
+.ahm{
+    color: rgb(11, 11, 82);
+    padding-top: 6%;
+}
+.ult{
+     color: rgb(11, 11, 82);
+     padding-top:50px;
+     padding-bottom: 3%;
+}
+.userlisttable{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:rgb(240, 227, 229);
+    
+}
+table {
+ 
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+td, th {
+  border: 1px solid #0e0c0c;
+  text-align: left;
+  padding: 10px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

@@ -1,20 +1,56 @@
-import React, { useState } from 'react'
-
-import './ProductList.css'
-import { Link } from 'react-router-dom';
-
+import React from 'react'
+import { Link } from 'react-router-dom'
 function ProductList() {
-  const [link,setLink] = useState("shop");
   return (
-    <div className='Head'>
-      <p className='clr'>STYLE SAVVY</p>
-      <div>
-            <ul className='headerlinks'>
-            <li onClick={()=>(setLink("shop"))}><Link style={{ textDecoration: 'none'}} to='/'>Shop</Link>{link==="shop"?<hr/>:<></>} </li>
-            <li onClick={()=>(setLink("mens"))}><Link style={{ textDecoration: 'none'}} to='/mens'>Mens</Link>{link==="mens"?<hr/>:<></>}</li>
-            <li onClick={()=>(setLink("womens"))}><Link style={{ textDecoration: 'none'}} to='/womens'>Womens</Link>{link==="womens"?<hr/>:<></>}</li>
-            <li onClick={()=>(setLink("kids"))}><Link style={{ textDecoration: 'none'}} to='/kids'>Kids</Link>{link==="kids"?<hr/>:<></>}</li></ul>
+    <div className='udt'><h1 className='ahm'>Product List</h1>
+    <h3 className='ult'>Product Data</h3>
+    <table className='userlisttable'>
+  <tr>
+  <th>Items</th>
+  <th>Title</th>
+  <th>Product</th>
+  <th>Description</th>
+  <th>Price</th>
+  <th>Action</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Frock</td>
+    <td><img src='' alt='product1' /></td>
+    <td>vaishnima@gmail.com</td>
+    <td>$599</td>
+    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Saari</td>
+    <td><img src='' alt='product1' /></td>
+    <td>vaishnima@gmail.com</td>
+    <td>$2999</td>
+    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Shirt and Pant</td>
+    <td><img src='' alt='product1' /></td>
+    <td>vaishnima@gmail.com</td>
+    <td>$1699</td>
+    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Kurta</td>
+    <td><img src='https://assets0.mirraw.com/images/7382282/image_zoom.jpeg?1688225287' alt='product1' /></td>
+    <td>vaishnima@gmail.com</td>
+    <td>$999</td>
+    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+  </tr>
+ </table>
         </div>
+  )
+}
+
+export default ProductList
         
     {/* // <div className='row'>
     // <div className='product-card'>
@@ -85,8 +121,4 @@ function ProductList() {
     // </div>
     // </div>
     </div> */}
-    </div>
-  )
-}
-
-export default ProductList
+   

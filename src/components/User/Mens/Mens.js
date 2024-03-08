@@ -18,7 +18,7 @@ function Mens() {
     </div>
     <div class="product">
       <img src="https://images.bestsellerclothing.in/data/JJ/28-aug-2023/291734301_g1.jpg?width=415&height=550&mode=fill&fill=blur&format=auto" alt="Product 2" />
-      <h6>JACK&JONES X KUTCH BLACK PATCHWORK DETAIL T-SHIRT</h6>
+      <h6>Black Patchwork Detail T-Shirt</h6>
       <p>₹999</p>
       <button>Add to Cart</button>
     </div>

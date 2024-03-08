@@ -34,14 +34,3 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-/* .blk button{
-  color:white;
-  background: rgb(10, 10, 10);
-}
-.blk button :hover{
-  background-color: #aca9a9;
-
-} */
-.blk button{
-  color: rgb(36, 36, 138);
-}
