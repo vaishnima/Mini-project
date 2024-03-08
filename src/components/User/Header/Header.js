@@ -10,7 +10,7 @@ function Header() {
             <img className='pic'
             src="https://down-my.img.susercontent.com/file/my-11134207-7qul7-lj5c38hjp5qe3a"
             alt="" height="110px" width="150"/>
-         <p className='clr'>STYLE SAVVY</p>
+         <p className='clr'>STYLE SAVVY </p>
         </div>
         <div>
             <ul className='headerlinks'>

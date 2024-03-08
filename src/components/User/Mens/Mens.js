@@ -1,9 +1,10 @@
 import React from 'react'
-
+import './Mens.css'
 function Mens() {
   return (
     <div><div class="product-container">
     <div class="product">
+      
       <img src="https://img3.junaroad.com/uiproducts/16753470/pri_175_p-1574939930.jpg" alt="Product 1" />
       <h6>Mens Solids Formal Shirt</h6>
       <p>₹899</p>
@@ -12,6 +13,12 @@ function Mens() {
     <div class="product">
       <img src="https://img3.junaroad.com/uiproducts/16769234/pri_175_p-1575379262.jpg" alt="Product 2" />
       <h6>Mens Solids Formal Shirt</h6>
+      <p>₹999</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.bestsellerclothing.in/data/JJ/28-aug-2023/291734301_g1.jpg?width=415&height=550&mode=fill&fill=blur&format=auto" alt="Product 2" />
+      <h6>JACK&JONES X KUTCH BLACK PATCHWORK DETAIL T-SHIRT</h6>
       <p>₹999</p>
       <button>Add to Cart</button>
     </div>
@@ -37,6 +44,12 @@ function Mens() {
       <img src="https://img3.junaroad.com/uiproducts/19144447/pri_175_p-1673273107.jpg" alt="Product 3" />
       <h6>Mens Checks Formal Shirt</h6>
       <p>₹589</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.bestsellerclothing.in/data/JJ/28-feb-2024/136684201_g1.jpg?width=415&height=550&mode=fill&fill=blur&format=auto" alt="Product 3" />
+      <h6>Yellow Logo Print Crew Neck Shirt</h6>
+      <p>₹1099</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
@@ -73,6 +86,12 @@ function Mens() {
       <img src="https://img3.junaroad.com/uiproducts/16773459/pri_175_p-1575552586.jpg" alt="Product 2" />
       <h6>Mens Checks Formal Shirt</h6>
       <p>₹570</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.bestsellerclothing.in/data/JJ/3-aug-2023/291735001_g1.jpg?width=415&height=550&mode=fill&fill=blur&format=auto" alt="Product 2" />
+      <h6>Brown Tie-Dye Crew Neck T-Shirt</h6>
+      <p>₹1149</p>
       <button>Add to Cart</button>
     </div>
   </div></div>

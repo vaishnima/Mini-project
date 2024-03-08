@@ -1,9 +1,9 @@
 import React from 'react'
 
-function AdminLogin() {
+function AdminLogOut() {
   return (
     <div></div>
   )
 }
 
-export default AdminLogin
+export default AdminLogOut

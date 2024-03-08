@@ -1,0 +1,37 @@
+.Header{
+    display:flex;
+    justify-content: space-around;
+    padding: 4px;
+    box-shadow: 0 1px 3px -2px black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(240, 227, 229);
+}
+
+.headerbrand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: -10px;
+    
+}
+.headerbrand p{
+    color: rgb(26, 15, 85);
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.hearderbuttons button{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    background:black;
+    cursor: pointer;
+}
+.hearderbuttons button:hover{
+    background-color:palevioletred;
+}

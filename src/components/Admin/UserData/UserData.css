@@ -1,0 +1,47 @@
+.udt{
+    background-color: rgb(240, 227, 229);
+    height: 100vh;
+}
+.ahm{
+    color: rgb(11, 11, 82);
+    padding-top: 6%;
+}
+.ult{
+     color: rgb(11, 11, 82);
+     padding-top:50px;
+     padding-bottom: 3%;
+}
+.userlisttable{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+table {
+ 
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+td, th {
+  border: 1px solid #0e0c0c;
+  text-align: left;
+  padding: 10px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* .blk button{
+  color:white;
+  background: rgb(10, 10, 10);
+}
+.blk button :hover{
+  background-color: #aca9a9;
+
+} */
+.blk button{
+  color: rgb(36, 36, 138);
+}

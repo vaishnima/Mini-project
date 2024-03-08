@@ -1,8 +1,10 @@
 import React from 'react'
-
-function Women() {
+import './Women.css'
+function Women(){
   return (
-    <div><div class="product-container">
+  
+    
+       <div class="product-container">
     <div class="product">
       <img src="https://img3.junaroad.com/uiproducts/19431353/zoom_0-1677476252.jpg" alt="Product 1" />
       <h6>Pink Self Design Top</h6>
@@ -16,9 +18,9 @@ function Women() {
       <button>Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://media.istockphoto.com/id/516174660/photo/girl-in-shorts-and-checked-shirt-arms-crossed-isolated.jpg?s=612x612&w=0&k=20&c=qLb7hcaIgT7KZD-cXM9x6YGnw7lrMNjwAPuFsYidjQs=" alt="Product 3" />
-      <h6>Pink Self Design Top</h6>
-      <p>₹699</p>
+      <img src="https://images.bestsellerclothing.in/data/vero-moda/08-jan-2024/150966701_g1.jpg?width=488&height=650&mode=fill&fill=blur&format=auto&dpr=1.2" alt="Product 3" />
+      <h6>Black & White Textured Bodycon Dress</h6>
+      <p>₹4299</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
@@ -59,7 +61,7 @@ function Women() {
     </div>
     <div class="product">
       <img src="https://img3.junaroad.com/uiproducts/18743624/zoom_0-1669901077.jpg" alt="Product 2" />
-      <h3>Women's Fit & Flare Printed Dress</h3>
+      <h6>Women's Fit & Flare Printed Dress</h6>
       <p>₹ 819</p>
       <button>Add to Cart</button>
     </div>
@@ -70,13 +72,32 @@ function Women() {
       <button>Add to Cart</button>
     </div>
     <div class="product">
+      <img src="https://images.bestsellerclothing.in/data/vero-moda/28-09-2022/239718401_g1.jpg?width=300&height=400&mode=fill&fill=blur&format=auto&dpr=1.2" alt="Product 2" />
+      <h6>Pink floral print top</h6>
+      <p>₹1399</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.bestsellerclothing.in/data/vero-moda/08-jan-2024/120722001_g1.jpg?width=300&height=400&mode=fill&fill=blur&format=auto&dpr=1.2" alt="Product 2" />
+      <h6>Black Floral Embroidered Top</h6>
+      <p>₹3449</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.bestsellerclothing.in/image/data/vero-moda/29-dec-2022/262816101_g1.jpg?width=397&height=526&mode=fill&fill=blur&format=auto" alt="Product 2" />
+      <h6>Pink Plisse Halter Neck Top</h6>
+      <p>₹2000</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
       <img src="https://img3.junaroad.com/uiproducts/20287641/zoom_0-1694417719.jpg" alt="Product 2" />
       <h6>Pink Self Design Top</h6>
       <p>₹599</p>
       <button>Add to Cart</button>
     </div>
-  </div></div>
+  </div>
   )
 }
+
 
 export default Women

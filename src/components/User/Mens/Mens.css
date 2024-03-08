@@ -5,9 +5,10 @@
   }
   
   .product {
-    width: 250px;
-    margin: 20px;
+    width: 200px;
+    margin: 10px;
     padding: 10px;
+    outline: 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
@@ -40,4 +41,6 @@
   .product button:hover {
     background-color: #0056b3;
   }
-  
+  .product:hover{
+    transform: scale(1.1);
+  }
