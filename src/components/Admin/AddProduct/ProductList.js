@@ -40,7 +40,7 @@ function ProductList() {
   <tr>
     <td>4</td>
     <td>Kurta</td>
-    <td><img src='https://assets0.mirraw.com/images/7382282/image_zoom.jpeg?1688225287' alt='product1' /></td>
+    <td><img src='' alt='product1' /></td>
     <td>vaishnima@gmail.com</td>
     <td>$999</td>
     <td className='blk'><Link to='/block'><button>Block</button></Link></td>

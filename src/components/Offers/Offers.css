@@ -32,8 +32,8 @@
     border:none;
     color: white;
     font-size: 22px;
-    
-    margin-left: 40%;
+    cursor: pointer;
+    margin-left: 4%;
     
 }
 .offers-right{
@@ -50,4 +50,7 @@
     border-radius: 60%;
     float: right; 
     margin-right: 90%;
+}
+.offers-left button:hover{
+    background-color: rgb(54, 9, 126);
 }

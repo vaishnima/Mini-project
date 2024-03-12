@@ -1,5 +1,6 @@
 import React from 'react'
 import './Offers.css'
+import { Link } from 'react-router-dom'
 function Offers() {
   return (
     <div className='offers'>
@@ -7,8 +8,8 @@ function Offers() {
             <h1>Exclusive</h1>
             <h1>Offers For You</h1>
             <p>ONLY ON BEST SELLERS PRODUCTS</p>
-            <button>Check Now</button>
-
+            
+            <Link to='/product'><button>Check Now</button></Link>
         </div>
         <div className='offers-right'>
             <img className='img' src='https://holleygirl.com/cdn/shop/products/4.27.23ShopifyImages_21_500x.jpg?v=1682541602' alt=''height="110px" width="100"/>

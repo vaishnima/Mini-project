@@ -53,6 +53,10 @@ const Login = () => {
     </div>
 
   )
+    
+}
+
+export default Login
   // function Login() {
   //   return (
   //   <div className='login'><h1 className='head'>STYLE SAVVY</h1>
@@ -100,7 +104,3 @@ const Login = () => {
   //       </Formik>
   //     </div>
   //   </div>
-  
-}
-
-export default Login

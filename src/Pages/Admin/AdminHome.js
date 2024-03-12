@@ -1,10 +1,11 @@
 import React from 'react'
 
 import HeaderA from '../../components/Admin/HeaderA/HeaderA'
+import HomeA from '../../components/Admin/HomeA/HomeA'
 
 function AdminHome() {
   return (
-    <div><HeaderA/></div>
+    <div><HeaderA/><HomeA/></div>
   )
 }
 

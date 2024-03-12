@@ -1,11 +1,12 @@
 import React from 'react'
 import ProductDisplay from '../../components/User/ProductDisplay/ProductDisplay'
+import Header from '../../components/User/Header/Header'
 
 
 
 function UserProduct() {
   return (
-    <div><ProductDisplay/></div>
+    <div><Header/><ProductDisplay/></div>
   )
 }
 

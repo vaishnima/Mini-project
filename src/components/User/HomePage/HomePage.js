@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomePage.css'
-
+import { Link } from 'react-router-dom'
 function HomePage() {
   return (
     <div className='home'>
@@ -14,8 +14,8 @@ function HomePage() {
             
             
           
-            
-              <div className="home-latest-btn">Latest Collections</div>
+          <Link to='/product'><button className="home-latest-btn">Latest Collections</button></Link>
+              
               </div>
               
                 <img className='home-right'src='https://st4.depositphotos.com/12985790/20643/i/450/depositphotos_206432966-stock-photo-attractive-fashionable-woman-posing-white.jpg'alt=''/>

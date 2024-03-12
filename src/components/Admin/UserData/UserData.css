@@ -34,3 +34,12 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+.blk{
+  color:black;
+}
+.userlisttable button{
+  background-color: red;
+}
+.userlisttable button:hover{
+  background-color: blue;
+}

@@ -1,9 +1,10 @@
 import React from 'react'
 import Mens from '../../components/User/Mens/Mens'
+import Header from '../../components/User/Header/Header'
 
 function UserMens() {
   return (
-    <div><Mens/></div>
+    <div><Header/><Mens/></div>
   )
 }
 

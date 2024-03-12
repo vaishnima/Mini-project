@@ -1,8 +1,9 @@
 import React from 'react'
+import LoginPage from '../../components/Admin/LoginPage/LoginPage'
 
 function AdminLogin() {
   return (
-    <div></div>
+    <div><LoginPage/></div>
   )
 }
 

@@ -1,9 +1,10 @@
 import React from 'react'
 import Kids from '../../components/User/Kids/Kids'
+import Header from '../../components/User/Header/Header'
 
 function UserKids() {
   return (
-    <div><Kids/></div>
+    <div><Header/><Kids/></div>
   )
 }
 

@@ -16,25 +16,25 @@ function UserData() {
     <td>1</td>
     <td>Vaishnima</td>
     <td>vaishnima@gmail.com</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><Link to='/block'><button className='blk'>Block</button></Link></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Nikhitha</td>
     <td>nikhitha@gmail.com</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><Link to='/block'><button className='blk'>Block</button></Link></td>
   </tr>
   <tr>
     <td>3</td>
     <td>Aasa</td>
     <td>aasa@gmail.com</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><Link to='/block'><button className='blk'>Block</button></Link></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Afeefa</td>
     <td>afeefa@gmail.com</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><Link to='/block'><button className='blk'>Block</button></Link></td>
   </tr>
  </table>
         </div>
