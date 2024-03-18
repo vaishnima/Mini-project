@@ -1,9 +1,9 @@
-/* .row {
+ /* .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  } 
+  }  
 .product-card{
     background-color:#fff;
     border-radius: 10px;
@@ -46,13 +46,17 @@
     margin-top: .5em;
     transition: background-color 0.3s ease;
 } */
-.udt{
+/* .udt{
     background-color: rgb(240, 227, 229);
-    height: 100vh;
+    height: 300vh;
 }
 .ahm{
     color: rgb(11, 11, 82);
     padding-top: 6%;
+} */
+.udt{
+    background-color: rgb(240, 227, 229);
+    height: 300vh;
 }
 .ult{
      color: rgb(11, 11, 82);
@@ -64,12 +68,13 @@
     
 }
 table {
- 
+  padding-top: 10%;
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 500%;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30%;
 }
 
 td, th {

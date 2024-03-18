@@ -110,13 +110,7 @@ function Women(){
       <p>₹2000</p>
       <button>Add to Cart</button>
     </div>
-    <div class="product">
-      <img src="https://img3.junaroad.com/uiproducts/20287641/zoom_0-1694417719.jpg" alt="Product 2" />
-      <h6>VAMSEE</h6>
-      <h6>Women Embroidered Saree with Cut-Out Border</h6>
-      <p>₹599</p>
-      <button>Add to Cart</button>
-    </div>
+    
   </div>
   )
 }

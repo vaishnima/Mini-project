@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 function ProductList() {
   return (
     <div className='udt'><h1 className='ahm'>Product List</h1>
@@ -16,34 +16,34 @@ function ProductList() {
   <tr>
     <td>1</td>
     <td>Frock</td>
-    <td><img src='' alt='product1' /></td>
-    <td>vaishnima@gmail.com</td>
+    <td><img src='https://img3.junaroad.com/uiproducts/20413939/zoom_0-1697386838.jpg' alt='product1' height="80px" width="80px" /></td>
+    <td>Embroidered Frock</td>
     <td>$599</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><button className='blk'>Edit</button><button className='blk'>Delete</button></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Saari</td>
-    <td><img src='' alt='product1' /></td>
-    <td>vaishnima@gmail.com</td>
+    <td><img src='https://img3.junaroad.com/uiproducts/20117478/zoom_0-1690621045.jpg' alt='product1' height="80px" width="80px"/></td>
+    <td>Women's Floral Purple Colored Saree</td>
     <td>$2999</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><button className='blk'>Edit</button><button className='blk'>Delete</button></td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Shirt and Pant</td>
-    <td><img src='' alt='product1' /></td>
-    <td>vaishnima@gmail.com</td>
+    <td>Shirt</td>
+    <td><img src='https://rukminim2.flixcart.com/image/3150/3150/xif0q/shirt/l/z/r/l-r-stbrg-stoneberg-original-imaggjv5xxqmrwzp.jpeg?q=70&crop=false' alt='product1' height="80px" width="80px"/></td>
+    <td>Men Slim Fit Solid Spread Collar Casual Shirt</td>
     <td>$1699</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><button className='blk'>Edit</button><button className='blk'>Delete</button></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Kurta</td>
-    <td><img src='' alt='product1' /></td>
-    <td>vaishnima@gmail.com</td>
-    <td>$999</td>
-    <td className='blk'><Link to='/block'><button>Block</button></Link></td>
+    <td><img src='https://cdn.shopify.com/s/files/1/0094/0716/8559/files/230513_ECOM_RAMRAJKIDS-0_566.jpg?v=1695189534&width=1080' alt='product1' height="80px" width="80px"/></td>
+    <td>Beige Printed Kurta Set</td>
+    <td>$1139</td>
+    <td className='blk'><button>Edit</button><button>Delete</button></td>
   </tr>
  </table>
         </div>

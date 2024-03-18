@@ -21,7 +21,7 @@ function HeaderA() {
                  <Link  to='/admin/order'>OrdrerList</Link>
              </div>
               <div className='hearderbuttons'>
-              <Link to='/login'><button>Login</button></Link>
+              
               <Link to='/logout'><button >LogOut</button></Link>
              </div></div>
   )

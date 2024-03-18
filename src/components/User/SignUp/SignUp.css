@@ -66,6 +66,10 @@ header a img{
   color: red;
   font-size: 12px;
 }
+::placeholder{
+  font-size: 14px;
+} 
+
 /* form { */
   /* max-width: 60%;
   margin: 0 auto;

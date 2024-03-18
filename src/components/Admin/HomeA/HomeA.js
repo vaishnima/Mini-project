@@ -5,7 +5,7 @@ function HomeA() {
     <div>
     
     
-    <div className='row'>
+    {/* <div className='row'>
     <div className='polaroid'>
         <img src="https://www.jiomart.com/images/product/original/rvfct2ggb3/fashion-dream-girls-red-floral-printed-crepe-pack-of-1-frock-product-images-rvfct2ggb3-0-202301121541.jpg?im=Resize=(1000,1000)" alt="" width="50%"/>
         <div class="caption">Floral Printed Frock<p>$ 250</p><button>Add to Cart</button></div>
@@ -57,7 +57,8 @@ function HomeA() {
 </div>                                        
       </div></div>
       
-      
+       */}
+       </div>
   )
 }
 
