@@ -67,6 +67,63 @@ header a img{
   color: red;
   font-size: 12px;
 }
+/* .loginSubmit{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.loginSubmit button{
+  height: 6vh;
+  width: 26vw;
+  padding: 10px 50px;
+  background-color: rgb(206, 68, 37);
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.loginSubmit button:hover{
+  background-color: rgb(228, 82, 49);
+}
+
+.loginInput {
+  padding: 20px 10px;
+  border: none;
+  width: 26vw;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+}
+
+.loginOr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCreateAccount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCreateAccount button{
+  height: 6vh;
+  width: 26vw;
+  padding: 10px 50px;
+  color: rgb(206, 68, 37);
+  background-color: white;
+  cursor: pointer;
+  border: solid 1px rgb(206, 68, 37) ;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.loginCreateAccount button:hover{
+  color: white;
+  background-color: rgb(206, 68, 37);
+} */
 /* .login {
 font-family: Arial, sans-serif;
 background-color: #f4f4f4; 

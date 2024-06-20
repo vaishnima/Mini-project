@@ -6,8 +6,15 @@ import UserProduct from '../Pages/User/UserProduct'
 import UserSignUp from '../Pages/User/UserSignUp'
 import UserWomens from '../Pages/User/UserWomens'
 import UserKids from '../Pages/User/UserKids'
-import UserShop from '../Pages/User/UserShop'
+
 import UserMens from '../Pages/User/UserMens'
+import UserSingleProduct from '../Pages/User/UserSingleProduct'
+import UserWishList from '../Pages/User/UserWishList'
+import UserAddCart from '../Pages/User/UserAddCart'
+
+
+
+
 
 function UserRouter() {
   return (
@@ -15,12 +22,16 @@ function UserRouter() {
         <Routes>
             <Route path='/' element={<UserHome/>} />
             <Route path='/login' element={<UserLogin/>} />
-            <Route path='/product' element={<UserProduct/>} />
+            <Route path='/latestcollections' element={<UserProduct/>} />
             <Route path='/signup' element={<UserSignUp/>} />
+            
             <Route path='/womens' element={<UserWomens/>} />
             <Route path='/kids' element={<UserKids/>} />
-            <Route path='/Shop' element={<UserShop/>} />
-            <Route path='/Mens' element={<UserMens/>} />
+            
+            <Route path='/shop/:productId' element={<UserSingleProduct/>}/>
+            <Route path='/mens' element={<UserMens/>} />
+            <Route path='/wishlist' element={<UserWishList/>} />
+            <Route path='/addcart' element={<UserAddCart/>} />
         </Routes>
         
     </div>

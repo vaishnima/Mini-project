@@ -16,6 +16,7 @@
 .offers-left h1{
     color: #171717;
     font-size: 55px;
+
 }
 .offers-left p{
     color: #171717;
@@ -53,4 +54,10 @@
 }
 .offers-left button:hover{
     background-color: rgb(54, 9, 126);
+}
+.jpg{
+    height: 140px;
+    width: 140px;
+    padding-top: 1px;
+    padding-left: 42%;
 }

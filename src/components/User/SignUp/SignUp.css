@@ -62,13 +62,18 @@ header a img{
   margin-top: 15px;
   color:rgb(85, 83, 87);
 }
-.errors-message{
+.error-message{
   color: red;
-  font-size: 12px;
+  font-size: 10px;
 }
 ::placeholder{
   font-size: 14px;
 } 
+
+.login-header{
+position: relative;
+top: 10px;
+}
 
 /* form { */
   /* max-width: 60%;

@@ -14,7 +14,7 @@ function HomePage() {
             
             
           
-          <Link to='/product'><button className="home-latest-btn">Latest Collections</button></Link>
+          <Link to='/latestcollections'><button className="home-latest-btn">Latest Collections</button></Link>
               
               </div>
               

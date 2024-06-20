@@ -1,12 +1,13 @@
 import React from 'react'
-import ProductDisplay from '../../components/User/ProductDisplay/ProductDisplay'
+
 import Header from '../../components/User/Header/Header'
+import LatestCollections from '../../components/User/LatestCollections/LatestCollections'
 
 
 
 function UserProduct() {
   return (
-    <div><Header/><ProductDisplay/></div>
+    <div><Header/><LatestCollections/></div>
   )
 }
 

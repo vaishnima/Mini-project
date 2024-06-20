@@ -1,10 +1,10 @@
+
 import React from 'react'
-import ProductList from '../../components/Admin/AddProduct/ProductList'
-
-
+import EditProduct from '../../components/Admin/EditProduct/EditProduct'
+import HeaderA from '../../components/Admin/HeaderA/HeaderA'
 function AdminEditProduct() {
   return (
-    <div><ProductList/></div>
+    <div><HeaderA/><EditProduct/></div>
   )
 }
 

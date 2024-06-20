@@ -1,4 +1,4 @@
-.product-container {
+/* .product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -45,4 +45,4 @@
   }
   .product:hover{
     transform: scale(1.1);
-  }
+  } */

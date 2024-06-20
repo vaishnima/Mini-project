@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='footer'>
     <div className="footer-logo">
-      <img src='https://down-my.img.susercontent.com/file/my-11134207-7qul7-lj5c38hjp5qe3a' alt='' height="110px" width="150"/>
+      <img src='https://img.freepik.com/premium-photo/shocked-young-woman-holding-shopping-bags_176532-101.jpg' alt='' height="110px" width="150"/>
       <p>STYLE SAVVY</p></div>
         <ul className="footer-links">
             <li><a href="#">Company</a></li>

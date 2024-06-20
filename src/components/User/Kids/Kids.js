@@ -1,9 +1,9 @@
-import React from 'react'
-import './Kids.css'
-function Kids() {
-  return (
-    <div><div class="product-container">
-    <div class="product">
+// import React from 'react'
+// import './Kids.css'
+// function Kids() {
+//   return (
+//     <div><div class="product-container">
+    {/* <div class="product">
       <img src="https://img3.junaroad.com/uiproducts/18391637/zoom_0-1654157182.jpg" alt="Product 1" />
       <h6>UNIBERRY</h6>
       <h6>Red Graphic Regular T-Shirt</h6>
@@ -12,33 +12,33 @@ function Kids() {
     </div>
     <div class="product">
       <img src="https://img3.junaroad.com/uiproducts/18621010/zoom_0-1667211770.jpg" alt="Product 2" />
-      <h6>Red Graphic Regular T-Shirt</h6>
+      <h6>MIMINO</h6>
       <h6>Girls Collared Shirt</h6>
       <p>Price: ₹850</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
       <img src="https://st2.depositphotos.com/3662305/10030/i/950/depositphotos_100309434-stock-photo-funny-child-fashionable-little-boy.jpg" alt="Product 3" />
-      <h6>Red Graphic Regular T-Shirt</h6>
+      <h6>V MART</h6>
       <h6>shirt geans</h6>
       <p>Price: ₹600</p>
       <button>Add to Cart</button>
     </div>
     <div class="product">
       <img src="https://img.freepik.com/premium-photo/carefree-casual-girl-cute-checkered-shirt-denim-pants-looks-happy-cheerful-child-girl-happy-carefree-enjoy-childhood-kid-girl-long-curly-hair-cheerful-happy-isolated-white-background_474717-60859.jpg" alt="Product 3" />
-      <h6>Red Graphic Regular T-Shirt</h6>
+      <h6>DOODLE</h6>
       <h6>Girls Collared Shirt</h6>
       <p>Price: ₹750</p>
       <button>Add to Cart</button>
       </div>
       <div class="product">
       <img src="https://previews.123rf.com/images/domenicogelermo/domenicogelermo1411/domenicogelermo141100168/33289625-portrait-of-a-smiling-little-girl-in-a-green-shirt-and-blue-jeans-on-a-white-background.jpg" alt="Product 3" />
-      <h6>Red Graphic Regular T-Shirt</h6>
+      <h6>BEEBAY</h6>
       <h6>Girls Boat Neck Top</h6>
       <p>Price: ₹600</p>
       <button>Add to Cart</button>
-      </div>
-      <div class="product">
+      </div> */}
+      {/* <div class="product">
       <img src="https://cdn.shopify.com/s/files/1/0094/0716/8559/files/230513_ECOM_RAMRAJKIDS-0_566.jpg?v=1695189534&width=1080" alt="Product 3" />
       <h6>FASHION GRAB</h6>
       <h6>Kurta</h6>
@@ -81,7 +81,7 @@ function Kids() {
       <button>Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://thumbs.dreamstime.com/b/little-girl-cute-pose-white-background-32816388.jpg" alt="Product 2" />
+      <img src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/15329216a.webp" alt="Product 2" />
       <h6>KAVSHIL</h6>
       <h6>Blue Simple Top</h6>
       <p>Price: ₹500</p>
@@ -98,7 +98,7 @@ function Kids() {
    
     <div class="product">
       <img src="https://i.pinimg.com/736x/2c/52/5c/2c525c180a76c215770123c4d66a51aa.jpg" alt="Product 2" />
-      <h6>Red Graphic Regular T-Shirt</h6>
+      <h6>KASYA</h6>
       <h6>Printed Sweetheart Neck Top Pants Set</h6>
       <p>Price: ₹1299</p>
       <button>Add to Cart</button>
@@ -114,4 +114,4 @@ function Kids() {
   )
 }
 
-export default Kids
+export default Kids */}

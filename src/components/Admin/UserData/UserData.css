@@ -1,45 +1,210 @@
-/* .udt{
-    background-color: rgb(240, 227, 229);
-    height: 100vh;
+
+
+/* .adminHome{
+  margin: 100px 20px;
 }
-.ahm{
-    color: rgb(11, 11, 82);
-    padding-top: 6%;
-} */
-.ult{
-     color: rgb(11, 11, 82);
-     padding-top:50px;
-     padding-bottom: 3%;
+
+.adminHome h1{
+  margin: 20px 0px;
 }
-.userlisttable{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
+.adminHome h3{
+  margin: 10px 0px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: end;
 }
-table {
- 
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+
+.adminUserTable{
+  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-td, th {
-  border: 1px solid #0e0c0c;
+.userListTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.userListTable th, .userListTable td {
+  border : 1px solid #ddd;
+  padding: 8px;
+}
+
+.userListTable th{
+  background-color: #f2f2f2;
   text-align: left;
-  padding: 10px;
-  
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+.userListTable tbody tr:nth-child(even){
+  background-color: #f2f2f2;
 }
-.blk{
-  color:black;
+
+.userListTable tbody tr:hover{
+  background-color: #ddd;
 }
-.userlisttable button{
-  background-color: red;
+
+.adminUserListBlock {
+  width: 50%;
+  height: 30px;
+  border: none;
+  background-color: #ff5a5a;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  cursor: pointer;
 }
-.userlisttable button:hover{
-  background-color: blue;
+
+.adminUserListBlock:hover{
+  background-color: #ff3e3e;
+} */
+
+
+/* .adminHome {
+  padding: 20px;
+  text-align: center;
+}
+
+.adminHome h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #333;
+}
+
+.adminHome h3 {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.userListTable {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.userListTable th, .userListTable td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.userListTable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+.userListTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.userListTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.remove-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-btn:hover {
+  background-color: #ff1a1a;
+} */
+
+
+/* .adminHome {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+.adminHome {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.adminHome h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #333;
+}
+
+
+
+.adminHome h3 {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.userListTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.userListTable th,
+.userListTable td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.userListTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+
+.remove-btn {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #ff6347;
+}
+
+.remove-btn:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .userListTable th,
+  .userListTable td {
+    padding: 8px;
+  }
+  
+  .block-btn,
+  .remove-btn {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .userListTable th,
+  .userListTable td {
+    padding: 6px;
+  }
+  
+  .block-btn,
+  .remove-btn {
+    font-size: 12px;
+  }
 }

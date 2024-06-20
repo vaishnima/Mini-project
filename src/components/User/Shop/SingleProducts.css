@@ -1,0 +1,35 @@
+/* SingleProducts.css */
+
+.container {
+  padding-top: 20px; /* Add some padding from the top */
+}
+
+.card {
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+.card-img-top {
+  height: 300px; /* Set a fixed height for the product image */
+  object-fit: cover; /* Ensure the image covers the entire space */
+}
+
+.card-title {
+  font-size: 20px; /* Increase the font size for the product title */
+  margin-bottom: 10px; /* Add some space below the title */
+}
+
+.card-text {
+  font-size: 16px; /* Set a font size for the product description */
+}
+
+.card-text b {
+  color: #0a0909; /* Change the color of the price to a distinct color */
+}
+
+.alert {
+  margin-top: 20px; /* Add some space above the alert */
+}
+
+.spinner {
+  margin-top: 50px; /* Add some space above the spinner */
+}
