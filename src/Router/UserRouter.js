@@ -10,7 +10,9 @@ import UserKids from '../Pages/User/UserKids'
 import UserMens from '../Pages/User/UserMens'
 import UserSingleProduct from '../Pages/User/UserSingleProduct'
 import UserWishList from '../Pages/User/UserWishList'
-import UserAddCart from '../Pages/User/UserAddCart'
+import UserCart from '../Pages/User/UserCart'
+// import Createreview from '../components/User/CreateReview'
+// import { userInstance } from '../axios/axiosInstance'
 
 
 
@@ -30,8 +32,10 @@ function UserRouter() {
             
             <Route path='/shop/:productId' element={<UserSingleProduct/>}/>
             <Route path='/mens' element={<UserMens/>} />
+            {/* <Route path='/wishlist' element={<UserWishList/>} /> */}
             <Route path='/wishlist' element={<UserWishList/>} />
-            <Route path='/addcart' element={<UserAddCart/>} />
+            <Route path='/addcart' element={<UserCart/>} />
+             {/* <Route path='/createreview/:productid' element={<Createreview/>} /> */}
         </Routes>
         
     </div>

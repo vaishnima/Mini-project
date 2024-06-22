@@ -1,0 +1,129 @@
+/* .add-cart {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-cart h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .remove-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .message {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+   */
+
+
+   /* .cart {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .cartHeading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cartTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cartTable th,
+  .cartTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .cartTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .cartTable img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cartTable .cartBuyNowBtn,
+  .cartTable .cartRemoveBtn {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .cartTable .cartRemoveBtn {
+    background-color: #f44336;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .cartTable th,
+    .cartTable td {
+      padding: 8px;
+    }
+  
+    .cartTable .cartBuyNowBtn,
+    .cartTable .cartRemoveBtn {
+      padding: 6px 10px;
+    }
+  }
+   */
