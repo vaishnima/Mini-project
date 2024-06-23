@@ -253,7 +253,7 @@ function Wishlist() {
       toast.error("Failed to remove product from wishlist");
     }
   };
-
+  if(loading) return <div>Loading...</div>
   if (error) return <div>{error}</div>;
 
   return (

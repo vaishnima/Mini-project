@@ -76,7 +76,7 @@ const validationSchema = Yup.object().shape({
             onBlur={formik.handleBlur} />
             {formik.touched.password && formik.errors.password && <div className='errors-message'>{formik.errors.password}</div>}
             
-            <button>Login</button>
+            <button type='submit'>Login</button>
             
             <p className='ptag'>Don't have an account?<Link to = '/signup'>SignUp</Link></p>
             </form>
@@ -91,50 +91,4 @@ const validationSchema = Yup.object().shape({
 }
 
 export default Login
-  // function Login() {
-  //   return (
-  //   <div className='login'><h1 className='head'>STYLE SAVVY</h1>
-  //     <div className="login-container">
-  //       <Formik className='for'
-  //         initialValues={{ username: '', password: '' }}
-  //         validate={values => {
-  //           const errors = {};
-  //           if (!values.username) {
-  //             errors.username = 'Required';
-  //           }
-  //           if (!values.password) {
-  //             errors.password = 'Required';
-  //           }
-  //           return errors;
-  //         }}
-  //         onSubmit={(values, { setSubmitting }) => {
-  //           setTimeout(() => {
-  //             alert(JSON.stringify(values, null, 2));
-  //             setSubmitting(false);
-  //           }, 400);
-  //         }}
-  //       >
-  //         {({ isSubmitting }) => (
-  //           <Form className="login-form">
-  //             <h2>Login</h2><br /><br />
-  //             <div className="form-group">
-  //               <label className='fst' htmlFor="email address"></label>
-  //               <input className='em' type="text" id="email address" name="email address" placeholder='Email Address' />
-  //               <ErrorMessage className='err1' name="email address" component="div" />
-  //               <br /><br />
-
-  //               <label className='sct' htmlFor="password"></label>
-  //               <input className='pass' type="password" id="password" name="password" placeholder='Password'/>
-  //               <ErrorMessage className='err2' name="password" component="div" />
-  //               <br /><br />
-  //             </div>
-  //             <button type="submit" disabled={isSubmitting}>
-  //               {isSubmitting ? 'Logging in...' : 'Login'}
-  //             </button>
-  //             <p className='sign'>Do you have an account?<a href='/signup'>SignUp</a></p>
-      
-  //           </Form>
-  //         )}
-  //       </Formik>
-  //     </div>
-  //   </div>
+  

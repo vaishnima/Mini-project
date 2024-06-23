@@ -1,37 +1,4 @@
-// import { userInstance } from "../axios/axiosInstance";
 
-// export const signup = (value) =>{
-//     return userInstance.post('/signup',{...value});
-// };
-// export const login = (value) =>{
-//     return userInstance.post('/login',{...value});
-// };
-
-// export const shopProduct = async () => {
-//   try {
-//     const response = await userInstance.get('http://localhost:8000/shop'); 
-//     return response.data.shopProduct; 
-//   } catch (error) {
-//     console.error('Error fetching shop products:', error.response || error.message || error);
-//     throw error;
-//   }
-// };
-//GET METHODS
-
-
-// export const mens = () => {
-//     return userInstance.get("/mens");
-//   };
-  
-  
-//   export const Womens = () => {
-//     return userInstance.get("/womens");
-//   };
-
- 
-//   export const kids = () => {
-//     return userInstance.get("/kids");
-//   };
 import { userInstance } from "../axios/axiosInstance";
 
 //POST METHOD
@@ -47,22 +14,6 @@ export const login = (value) =>{
 // export const postReview = (reviewData) => {
 //   return userInstance.post("/reviews/create", { ...reviewData });
 // };
-
-// export const AddToWishlist = (productId) => {
-//   return userInstance.post("/wishlist", { productId });
-// };
-
-// // Add to Cart
-// export const addToCart = (userEmail, productId, quantity) => {
-//   return userInstance.post('/addcart', { userEmail, productId, quantity });
-// };
-
-// // Remove from Cart
-// export const removeCart = (userEmail, productId) => {
-//   return userInstance.delete('/removecart', { userEmail, productId });
-// };
-
-
 
 
 //GET METHOD
@@ -114,35 +65,7 @@ try {
 };
 
 
-// export const getWishlist = async () => {
-//   try {
-//     const response = await userInstance.get('http://localhost:8000/wishlist'); 
-//     return response.data.wishlistItems; 
-//   } catch (error) {
-//     console.error('Error fetching wishlist items:', error.response || error.message || error);
-//     throw error;
-//   }
-// };
 
-// export const removeWishlistItem = async (productId) => {
-//   try {
-//     const response = await userInstance.delete(`http://localhost:8000/wishlist/${productId}`);
-//     return response.data;
-//   } catch (error) {
-//     console.error('Error removing item from wishlist:', error.response || error.message || error);
-//     throw error;
-//   }
-// };
-
-// export const addToWishlist = async (productId) => {
-//   try {
-//     const response = await userInstance.post('/wishlist', { productId });
-//     return response.data;
-//   } catch (error) {
-//     console.error('Error adding item to wishlist:', error.response || error.message || error);
-//     throw error;
-//   }
-// };
 
 
 // export const Createuserreview = async (productId, productData) => {
@@ -209,29 +132,6 @@ export const editCart = (productId, quantity) => {
 
 
 
-// //Wishlist
-
-
-// export const AddToWishlist = (productId) => {
-//   return userInstance.post("/wishlist", { productId });
-// };
-
-
-
-// export const getWishlist = () => {
-//   return userInstance.get("/wishlist");
-// };
-
-
-
-// export const removeFromWishlist = (productId) => {
-//   return userInstance.delete(`/wishlist/remove/${productId}`);
-// };
-
-
-// export const checkProductInWishlist = (productId) => {
-//   return userInstance.get(`/wishlist/check/${productId}`);
-// };
 
 
 //Wishlist
