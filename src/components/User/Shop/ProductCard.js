@@ -472,7 +472,6 @@
 //     </Col>
 //   );
 // }
-
 // export default ProductCard;
 
 
@@ -636,8 +635,8 @@ function ProductCard({ product }) {
           <Card.Text className="product-description">{product.description}</Card.Text>
           <Card.Text className="product-price">₹{product.price}</Card.Text>
           <div className="button-group">
-            <Button variant="primary" onClick={handleAddToCart}>Add Cart</Button>
-            <Button variant="secondary" onClick={handleAddToWishlist}>
+            <Button variant="primary" onClick={handleAddToCart} >Add to Cart</Button>
+            <Button variant="secondary" onClick={handleAddToWishlist} >
               {inWishlist ? 'Remove from Wishlist' : 'Wishlist'}
             </Button>
           </div>

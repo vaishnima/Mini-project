@@ -29,8 +29,8 @@ const validationSchema = Yup.object().shape({
       const { data } = await login(values);
       console.log(data, "USER RETURN DATA !!!");
       if(data.created){
-        localStorage.setItem("jwt", data.token);
-        toast.success("Login Success", { position:"top-right" });
+        localStorage.setItem("JWT", data.token);
+        toast.success("Login Successfully", { position:"top-right" });
         navigate("/admin");
 
       }else {

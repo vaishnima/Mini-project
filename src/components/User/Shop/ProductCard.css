@@ -166,7 +166,7 @@
 } */
 
 
-/* .product-card {
+ /* .product-card {
   transition: transform 0.2s, box-shadow 0.2s;
   border: 1px solid #f8f9fa;
   background-color: white;
@@ -191,9 +191,9 @@
   font-size: 1.1rem;
   font-weight: bold;
   color: #343a40;
-}
+} */
 
-.add-btn {
+/*.add-btn {
   background-color: white;
   color: #343a40;
   border: 2px solid #343a40;
@@ -258,6 +258,22 @@
   color: #b12704;
   margin: 10px 0;
 }
+
+/* .product-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #343a40;
+} */
 
 .button-group {
   display: flex;
