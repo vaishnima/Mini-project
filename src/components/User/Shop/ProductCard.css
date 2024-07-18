@@ -211,7 +211,7 @@
 } */
 
 
-.shop {
+/* .shop {
   padding: 20px;
   background-color: #f8f9fa;
 }
@@ -259,21 +259,6 @@
   margin: 10px 0;
 }
 
-/* .product-name {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.product-description {
-  font-size: 0.9rem;
-  color: #6c757d;
-}
-
-.product-price {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #343a40;
-} */
 
 .button-group {
   display: flex;
@@ -284,4 +269,106 @@
 .button-group .btn {
   flex: 1;  
   margin: 0 5px;
+} */
+
+
+ .shop {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.product-card {
+  border:none;
+  border-radius: 10px;
+  padding: 16px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.product-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+
+
+.product-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-name {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  height: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+  font-size: 1.5em;
+  color: #110f0f;
+  margin: 10px 0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-group .btn {
+  flex: 1;
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+/* Custom styles for buttons */
+.custom-button {
+  min-width: 100px; /* Adjust this size as needed */
+  font-size: 0.9rem; /* Adjust this size as needed */
+}
+
+.custom-button-primary {
+  background-color: #28a745; /* Add to Cart button color */
+  border-color: #28a745;
+}
+
+.custom-button-secondary {
+  background-color: #ffc107; /* Wishlist button color */
+  border-color: #ffc107;
+}
+
+.custom-button-primary:hover,
+.custom-button-primary:focus,
+.custom-button-primary:active {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.custom-button-secondary:hover,
+.custom-button-secondary:focus,
+.custom-button-secondary:active {
+  background-color: #e0a800;
+  border-color: #d39e00;
 }

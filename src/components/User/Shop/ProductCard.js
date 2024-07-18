@@ -628,15 +628,15 @@ function ProductCard({ product }) {
           alt={product.name}
           className="product-image"
           onClick={handleImageClick}
-          style={{ cursor: 'pointer' }}
+          style={{ height:'10rem', width:'10rem', cursor: 'pointer' }}
         />
         <Card.Body>
           <Card.Title className="product-name">{product.name}</Card.Title>
           <Card.Text className="product-description">{product.description}</Card.Text>
           <Card.Text className="product-price">₹{product.price}</Card.Text>
           <div className="button-group">
-            <Button variant="primary" onClick={handleAddToCart} >Add to Cart</Button>
-            <Button variant="secondary" onClick={handleAddToWishlist} >
+            <Button variant="primary" className="custom-button custom-button-primary" onClick={handleAddToCart} >Add to Cart</Button>
+            <Button variant="secondary" className="custom-button custom-button-secondary" onClick={handleAddToWishlist} >
               {inWishlist ? 'Remove from Wishlist' : 'Wishlist'}
             </Button>
           </div>
